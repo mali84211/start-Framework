@@ -3,14 +3,34 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HomeComponent } from './home/home.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { LineComponent } from './line/line.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { NotfoundComponent } from './notfound/notfound.component';
+import { FormsModule } from '@angular/forms';
+import { Line2Component } from './line2/line2.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    AboutComponent,
+    ContactComponent,
+    FooterComponent,
+    PortfolioComponent,
+    LineComponent,
+    NavbarComponent,
+    NotfoundComponent,
+    Line2Component
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
